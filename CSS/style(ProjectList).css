@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jacquard+24&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Oooh+Baby&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jacquard+24&family=Licorice&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Oooh+Baby&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jacquard+24&family=Licorice&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Megrim&family=Oooh+Baby&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Jacquard+24&family=Libre+Barcode+39+Extended+Text&family=Licorice&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Megrim&family=Oooh+Baby&family=Whisper&display=swap');
+
+body{
+    background-color: rgba(237, 252, 244, 0.869);
+}
+
+header{
+    background-color: rgba(68, 122, 106, 0.722);
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+}
+h1{
+    font-family: "Abel", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+  
+}
+
+
+p{
+    margin:10px 20px;
+}
+
+.bar{
+    display:flex;
+   justify-content: space-between;
+   align-items: flex-end;
+
+}
+
+header h1{
+    color:black;
+    font-family: "Megrim", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  font-size: 55px;
+}
+
+.home{
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+.projects{
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+.about{
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+
+
+footer h2{
+    font-family: "Libre Barcode 39 Extended Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+}
+
+footer{
+    color:black;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color: rgba(68, 122, 106, 0.722);
+    font-family: "Abel", sans-serif;
+    font-family: "Marvel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
